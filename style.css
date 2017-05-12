@@ -1,16 +1,18 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #FF866A;
 }
 
 #header
 {
-	background: #ccc;
+	background: #F7230C;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0;
+             colour: white;
+}
 
 #navigation
 {
@@ -51,8 +53,8 @@
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
+	box-shadow: 0px 0px 6px #FEBFD2;
+	background-image: -webkit-gradient(linear, left top, right top, from(#FEBFD2), to(#FD3F92));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
@@ -75,7 +77,7 @@
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #FEBFD2;
 	box-shadow: 0px 0px 6px #000000;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
@@ -88,7 +90,7 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #F7230C;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
